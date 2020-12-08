@@ -10,9 +10,9 @@ export const addFeature = (feature) => {
   };
 };
 
-export const removeFeature = (feature) => {
+export const deleteFeature = (feature) => {
   return {
-    type: REMOVE_FEATURE,
+    type: DELETE_FEATURE,
     payload: feature,
   };
 };
